@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e01a7b2-66d5-490e-b30f-2958cf17c53e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TravelPlanner/lib/vk.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlacesPlanner/views.py" afterPath="$PROJECT_DIR$/PlacesPlanner/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -108,8 +106,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PlacesPlanner/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24590164" vertical-offset="0" max-vertical-offset="675">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.39344263" vertical-offset="0" max-vertical-offset="660">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -192,8 +190,8 @@
         <option value="$PROJECT_DIR$/cities.json" />
         <option value="db-console:/76704003/d0bba2d5-6435-4790-8cba-c07ac6ff267f/" />
         <option value="$PROJECT_DIR$/TravelPlanner/lib/foursquare.py" />
-        <option value="$PROJECT_DIR$/PlacesPlanner/views.py" />
         <option value="$PROJECT_DIR$/TravelPlanner/lib/vk.py" />
+        <option value="$PROJECT_DIR$/PlacesPlanner/views.py" />
       </list>
     </option>
   </component>
@@ -678,7 +676,13 @@
       <option name="project" value="LOCAL" />
       <updated>1425998330988</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="vk country search">
+      <created>1426002605092</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1426002605092</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -725,7 +729,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="first page form started" />
-    <option name="LAST_COMMIT_MESSAGE" value="first page form started" />
+    <MESSAGE value="vk country search" />
+    <option name="LAST_COMMIT_MESSAGE" value="vk country search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1020,8 +1025,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PlacesPlanner/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24590164" vertical-offset="0" max-vertical-offset="675">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.39344263" vertical-offset="0" max-vertical-offset="660">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

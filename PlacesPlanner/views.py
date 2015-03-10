@@ -3,12 +3,8 @@ from django.shortcuts import render
 from PlacesPlanner.forms import PlaceSearchForm
 from TravelPlanner.lib import foursquare
 
-from TravelPlanner.lib.vk import vk_api
-
 
 def index(request):
-    vk_api('database.getCountries', {'need_all': 0, 'count': 100})
-
     if request.method == 'POST':
         form = PlaceSearchForm(request.POST)
 
@@ -16,6 +12,9 @@ def index(request):
 
         client = foursquare.get_client()
         explore_venues = client.venues.explore({'near': destination_city, 'section': 'sights'})
+        print(explore_venues['geocode']['cc'])
+        print(explore_venues['geocode']['displayString'])
+        print(explore_venues['headerLocationGranularity'])
     else:
         form = PlaceSearchForm()
         explore_venues = None
