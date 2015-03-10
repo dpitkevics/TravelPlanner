@@ -1,0 +1,7 @@
+{% for category in categories %}
+    <p>{{ category.shortName }}</p>
+
+    {% if category.categories %}
+        {% include 'PlacesPlanner/includes/category.html' with categories=category.categories %}
+    {% endif %}
+{% endfor %}

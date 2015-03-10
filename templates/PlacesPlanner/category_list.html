@@ -1,0 +1,9 @@
+{% extends 'base_generic.html' %}
+
+{% block content %}
+    {% for category in categories %}
+        <h1>{{ category.shortName }}</h1>
+
+        {% include 'PlacesPlanner/includes/category.html' with categories=category.categories %}
+    {% endfor %}
+{% endblock %}
