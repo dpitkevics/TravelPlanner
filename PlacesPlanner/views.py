@@ -3,15 +3,19 @@ from django.shortcuts import render
 from PlacesPlanner.forms import PlaceSearchForm
 from TravelPlanner.lib import foursquare
 
+from TravelPlanner.lib.vk import vk_api
+
 
 def index(request):
+    vk_api('database.getCountries', {'need_all': 0, 'count': 100})
+
     if request.method == 'POST':
         form = PlaceSearchForm(request.POST)
 
         destination_city = request.POST['destination_city']
 
         client = foursquare.get_client()
-        explore_venues = client.venues.explore({'near': destination_city, 'radius': 10000, 'section': 'sights'})
+        explore_venues = client.venues.explore({'near': destination_city, 'section': 'sights'})
     else:
         form = PlaceSearchForm()
         explore_venues = None
